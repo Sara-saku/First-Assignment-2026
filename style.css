@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 
-    
-    
+
+
+
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,21 +16,23 @@ nav{
     height: 70px;
     margin: auto;
     padding: 10px 90px;
-    
+
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     list-style: none;
     gap: 24px;
 }
-.nav-links a{
+
+.nav-links a {
     text-decoration: none;
     color: #575757;
     font-size: 16px;
-    
+
 }
-.btn{
+
+.btn {
     text-decoration: none;
     background: #1d4ed8;
     color: white;
@@ -39,15 +42,18 @@ nav{
     height: 48px;
     border: none;
 }
-h1{
+
+h1 {
     font-size: 80px;
-    color: #ffffff; 
-    text-align: center;               
+    color: #ffffff;
+    text-align: center;
 }
-span{
+
+span {
     font-style: italic;
 }
-.p1{
+
+.p1 {
     font-size: 22px;
     font-weight: 400;
     color: #ffffff;
@@ -55,22 +61,24 @@ span{
     margin-top: 20px;
     margin-bottom: 24px;
 }
-.banner{
+
+.banner {
     background-image: url(./images/banner.jpg);
     inline-size: 1551px;
-    
+
     background-size: cover;
     background-position: center;
     margin: auto;
-   
+
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.overlay{
+
+.overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    
+
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -78,46 +86,60 @@ span{
     align-items: center;
     justify-content: center;
 }
-label{
+
+label {
     font-size: 14px;
     color: #1d4ed8;
     font-weight: 200;
     margin-bottom: 8px;
 }
-.speakers{display: grid;
+.meet{
+    text-align: center;
+    
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.speakers {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
     max-width: 1200px;
     margin: auto;
     padding: 40px 60px;
-    }
-.speakers-container{
+}
+
+.speakers-container {
     display: flex;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+
     justify-content: space-between;
     gap: 20px;
     margin-top: 40px;
-    
-    
-}.speaker{
+
+
+}
+
+.speaker {
     display: flex;
     flex-direction: column;
-    
-  
+
+
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.highlight{
+.highlight {
     text-align: center;
+    font-size: x-large;
     margin-bottom: 40px;
-    
+
 }
-.card-container{
+
+.card-container {
     display: flex;
     align-content: center;
     max-width: 1200px;
@@ -125,41 +147,48 @@ label{
     margin-top: 40px;
     justify-content: center;
     gap: 30px;
-    
+
 
 }
 
 
-.price-card{
+.price-card {
     width: 380px;
     background-color: #E5E7EB;
     padding: 50px;
     text-decoration: dotted;
     border-radius: 12px;
-    
+    margin-bottom: 35px;
+
 }
-.special-price-card{
+
+.special-price-card {
     width: 380px;
     background-color: #0D1B2A;
-    color:#ffffff;
+    color: #ffffff;
     padding: 50px;
     text-decoration: dotted;
     border-radius: 12px;
-    
+    margin-bottom: 35px;
+
 
 }
-.card-head{
+
+.card-head {
     margin-bottom: 22px;
 
 }
-ul{
+
+ul {
     margin-top: 20px;
     margin-bottom: 22px;
     line-height: 22px;
     padding-left: 15px;
 }
-button{
-    width: 285px;
+
+.price-btn{
+    justify-content: center;
+    width: 285px; 
     height: 45px;
     border-radius: 8px;
     padding: 11px;
@@ -167,8 +196,43 @@ button{
     border-color: #0D1B2A;
 
 }
-#special{
-    background-color: #2563EB;
-    border: none;
-    color: #ffffff;
+
+
+
+.missing-highlights {
+    background-color: #F8FAFC;
+    
+    max-width: 1600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 30px;
+
+  
+}
+
+.section-title {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 30px;
+   
+}
+
+.highlight-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 25px;
+    
+   
+    
+    
+    
+}
+.highlight-card{
+    background-color: #ffffff;
+    padding: 25px;
+    line-height: 20px;
 }
