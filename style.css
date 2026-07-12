@@ -124,9 +124,51 @@ label{
     margin: auto;
     margin-top: 40px;
     justify-content: center;
-    gap: 150px;
+    gap: 30px;
     
 
 }
 
 
+.price-card{
+    width: 380px;
+    background-color: #E5E7EB;
+    padding: 50px;
+    text-decoration: dotted;
+    border-radius: 12px;
+    
+}
+.special-price-card{
+    width: 380px;
+    background-color: #0D1B2A;
+    color:#ffffff;
+    padding: 50px;
+    text-decoration: dotted;
+    border-radius: 12px;
+    
+
+}
+.card-head{
+    margin-bottom: 22px;
+
+}
+ul{
+    margin-top: 20px;
+    margin-bottom: 22px;
+    line-height: 22px;
+    padding-left: 15px;
+}
+button{
+    width: 285px;
+    height: 45px;
+    border-radius: 8px;
+    padding: 11px;
+    margin-top: 22px;
+    border-color: #0D1B2A;
+
+}
+#special{
+    background-color: #2563EB;
+    border: none;
+    color: #ffffff;
+}
