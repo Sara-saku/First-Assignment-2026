@@ -1,0 +1,31 @@
+#Promts I have used for missing part.
+1.
+As a beginner i have only learnt html and css basics.
+i was working on a simple web page based on DevCon 2026. where i have compleated
+Navigation bar
+Hero section
+Speakers section
+Pricing section (Standard, Pro, Team)&
+Footer
+now i want a stunning section before Footer. which will be unic also informative for the viewer.
+2.
+I want to go with option-1: Conference Highlights.
+#What i get from AI.
+
+Section Layout
+-------------------------------------------------
+             Conference Highlights
+   Discover what makes DEVCONF 2026 special.
+
+┌────────────┐ ┌────────────┐
+│ 💡         │ │ 🛠         │
+│ Expert     │ │ Workshops  │
+│ Speakers   │ │            │
+└────────────┘ └────────────┘
+
+┌────────────┐ ┌────────────┐
+│ 🤝         │ │ 🎁         │
+│ Networking │ │ Free Swag  │
+│            │ │            │
+└────────────┘ └────────────┘
+-------------------------------------------------
