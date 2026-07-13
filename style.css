@@ -8,6 +8,7 @@
 
 }
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -69,11 +70,10 @@ span {
     background-size: cover;
     background-position: center;
     margin: auto;
-
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px;
 }
 
 .overlay {
@@ -85,6 +85,7 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 25px;
 }
 
 label {
@@ -194,8 +195,26 @@ ul {
     padding: 11px;
     margin-top: 22px;
     border-color: #0D1B2A;
+    font-size: large;
+    font-weight: 600;
 
 }
+.special-btn{
+    justify-content: center;
+    width: 285px; 
+    height: 45px;
+    border-radius: 8px;
+    padding: 11px;
+    margin-top: 22px;
+    color: #ffffff;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    background-color: #1d4ed8;
+
+
+}
+
 
 
 
