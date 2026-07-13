@@ -8,206 +8,228 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-
-    <header>
-
-        <!-- navigation bar -->
-        <nav>
-            <!-- main logo left -->
-
-            <div>
-                <img src="./images/logo.png" alt="logo">
-
-            </div>
-
-            <!-- centered menu items -->
-
-            <ul class="nav-links">
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Tracks</a></li>
-                <li><a href="#">Venue</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
 
 
-            <!-- Register button  -->
+<header>
 
+    <!-- navigation bar -->
+    <nav>
+        <!-- main logo left -->
+
+        <div>
+            <img src="./images/logo.png" alt="logo">
+
+        </div>
+
+        <!-- centered menu items -->
+
+        <ul class="nav-links">
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Tracks</a></li>
+            <li><a href="#">Venue</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+
+
+        <!-- Register button  -->
+
+        <button class="btn">
+            Register Now
+        </button>
+
+    </nav>
+    <!-- Hero banner section -->
+    <section class="banner">
+        <div class="overlay">
+            <!-- inline font styling -->
+            <h1>Code.<br><span>Connect</span>.<Br>Create.</h1>
+
+            <p class="p1"> Join 4,000+ engineers, founders, and builders at the premier developer<br>conference of
+                2026. Three
+                days of cutting-edge talks, hands-on workshops,<br> and meaningful connections.</p>
             <button class="btn">
                 Register Now
             </button>
 
-        </nav>
-        <!-- Hero banner section -->
-        <section class="banner">
-            <div class="overlay">
-                <!-- inline font styling -->
-                <h1>Code.<br><span>Connect</span>.<Br>Create.</h1>
+        </div>
+    </section>
+</header>
 
-                <p class="p1"> Join 4,000+ engineers, founders, and builders at the premier developer<br>conference of
-                    2026. Three
-                    days of cutting-edge talks, hands-on workshops,<br> and meaningful connections.</p>
-                <button class="btn">
-                    Register Now
-                </button>
+<body>
+
+
+
+    <!-- Meet the Speakers Section -->
+    <section class="speakers">
+        <h2 class="meet">Meet the Speakers</h2>
+        <div class="speakers-container">
+            <div class="speaker">
+                <img src="./images/andrej.png" alt="Speaker 1">
+                <label>AI/ML</label>
+                <h3>Andrej</h3>
+                <p>Research Scientist at AI Lab</p>
+            </div>
+            <div class="speaker">
+                <img src="./images/demis.png" alt="Speaker 2">
+                <label>Cloud & DevOps</label>
+                <h3>Demis Hassabis</h3>
+                <p>CEO at DeepMind</p>
+            </div>
+            <div class="speaker">
+                <img src="./images/gary.png" alt="Speaker 3">
+                <label>Frontend</label>
+                <h3>Gary</h3>
+                <p>Frontend Developer at WebTech</p>
+            </div>
+            <div class="speaker">
+                <img src="./images/mustafa.png" alt="Speaker 4">
+                <label>Security</label>
+                <h3>Mustafa</h3>
+                <p>Security Engineer at CyberSec</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Secure Your Spot (Pricing) Section -->
+    <section class="pricing">
+        <div class="highlight">
+            <h2>Secure Your Spot</h2>
+            <p>Early-bird pricing ends August 15, 2026.</p>
+        </div>
+        <div class="card-container">
+            <!-- 1 -->
+            <div class="price-card">
+                <div class="card-head">
+                    <p>Standard</p>
+                    <h3>$399</h3>
+                    <p>per person</p>
+                </div>
+                <hr>
+
+                <ul>
+                    <li>Access to all 3 conference days</li>
+                    <li>48 curated technical talks</li>
+                    <li>2 workshop sessions</li>
+                    <li>Networking lunch & coffee breaks</li>
+                    <li>Conference swag bag</li>
+                    <li>Digital recordings (30 days)</li>
+                </ul>
+                <button class="price-btn">Get Standard</button>
+
 
             </div>
-        </section>
+            <!-- 2 -->
 
 
 
-        <!-- Meet the Speakers Section -->
-        <section class="speakers">
-            <h2 class="meet">Meet the Speakers</h2>
-            <div class="speakers-container">
-                <div class="speaker">
-                    <img src="./images/andrej.png" alt="Speaker 1">
-                    <label>AI/ML</label>
-                    <h3>Andrej</h3>
-                    <p>Research Scientist at AI Lab</p>
+            <div class="special-price-card">
+                <div class="card-head">
+                    <P>Pro</P>
+                    <h3>$749</h3>
+                    <p>per person</p>
                 </div>
-                <div class="speaker">
-                    <img src="./images/demis.png" alt="Speaker 2">
-                    <label>Cloud & DevOps</label>
-                    <h3>Demis Hassabis</h3>
-                    <p>CEO at DeepMind</p>
-                </div>
-                <div class="speaker">
-                    <img src="./images/gary.png" alt="Speaker 3">
-                    <label>Frontend</label>
-                    <h3>Gary</h3>
-                    <p>Frontend Developer at WebTech</p>
-                </div>
-                <div class="speaker">
-                    <img src="./images/mustafa.png" alt="Speaker 4">
-                    <label>Security</label>
-                    <h3>Mustafa</h3>
-                    <p>Security Engineer at CyberSec</p>
-                </div>
+                <hr>
+                <ul>
+                    <li>per person</li>
+                    <li>Unlimited workshop access</li>
+                    <li>Speaker meet & greet</li>
+                    <li>VIP networking dinner</li>
+                    <li>Lifetime recording access</li>
+                    <li>1-on-1 mentorship (30 min)</li>
+                </ul>
+                <button class="price-btn">Get Pro</button>
+
+
             </div>
-        </section>
+            <div class="price-card">
+                <div class="card-head">
+                    <p>Team</p>
+                    <h3>$5,999</h3>
+                    <p>up to 10 people-0</p>
+                </div>
+
+                <hr>
+                <ul>
+                    <li>Everything in Pro (10 seats)</li>
+                    <li>Dedicated team lounge access</li>
+                    <li>Private workshop booking</li>
+                    <li>Company logo on event page</li>
+                    <li>Recruitment booth (1 day)</li>
+                    <li>Priority customer support</li>
+                </ul>
+                <button class="price-btn">Contact Us</button>
 
 
-        <!-- Secure Your Spot (Pricing) Section -->
-        <section class="pricing">
-            <div class="highlight">
-                <h2>Secure Your Spot</h2>
-                <p>Early-bird pricing ends August 15, 2026.</p>
             </div>
-            <div class="card-container">
-                <!-- 1 -->
-                <div class="price-card"> 
-                    <div class="card-head">
-                        <p>Standard</p>
-                        <h3>$399</h3>
-                        <p>per person</p>
-                    </div>
-                    <hr>
-
-                    <ul>
-                        <li>Access to all 3 conference days</li>
-                        <li>48 curated technical talks</li>
-                        <li>2 workshop sessions</li>
-                        <li>Networking lunch & coffee breaks</li>
-                        <li>Conference swag bag</li>
-                        <li>Digital recordings (30 days)</li>
-                    </ul>
-                    <button class="price-btn">Get Standard</button>
-
-
-                </div>
-                <!-- 2 -->
+        </div>
+    </section>
 
 
 
-                <div class="special-price-card">
-                    <div class="card-head">
-                        <P>Pro</P>
-                        <h3>$749</h3>
-                        <p>per person</p>
-                    </div>
-                    <hr>
-                    <ul>
-                        <li>per person</li>
-                        <li>Unlimited workshop access</li>
-                        <li>Speaker meet & greet</li>
-                        <li>VIP networking dinner</li>
-                        <li>Lifetime recording access</li>
-                        <li>1-on-1 mentorship (30 min)</li>
-                    </ul>
-                    <button class="price-btn">Get Pro</button>
+    <!-- missing section  -->
+    <section class="missing-highlights">
+
+        <div class="section-title">
+            <h2>Conference Highlights</h2>
+            <p>Everything you need for an unforgettable developer conference experience.</p>
+        </div>
+
+        <div class="highlight-container">
+
+            <div class="highlight-card">
+                <h3>💡 Expert Speakers</h3>
+                <p>Learn from world-class engineers, founders, and technology leaders.</p>
 
 
-                </div>
-                <div class="price-card">
-                    <div class="card-head">
-                        <p>Team</p>
-                        <h3>$5,999</h3>
-                        <p>up to 10 people-0</p>
-                    </div>
-
-                    <hr>
-                    <ul>
-                        <li>Everything in Pro (10 seats)</li>
-                        <li>Dedicated team lounge access</li>
-                        <li>Private workshop booking</li>
-                        <li>Company logo on event page</li>
-                        <li>Recruitment booth (1 day)</li>
-                        <li>Priority customer support</li>
-                    </ul>
-                    <button class="price-btn">Contact Us</button>
-
-
-                </div>
-            </div>
-        </section>
-
-
-
-        <!-- missing section  -->
-        <section class="missing-highlights">
-
-            <div class="section-title">
-                <h2>Conference Highlights</h2>
-                <p>Everything you need for an unforgettable developer conference experience.</p>
-            </div>
-
-            <div class="highlight-container">
-
-                <div class="highlight-card">
-                    <h3>💡 Expert Speakers</h3>
-                    <p>Learn from world-class engineers, founders, and technology leaders.</p>
-
-
-                    
-                </div>
-
-                <div class="highlight-card">
-                    <h3>🛠 Hands-on Workshops</h3>
-                    <p>Build practical skills through interactive coding sessions.</p>
-                    
-                </div>
-
-                <div class="highlight-card">
-                    <h3>🤝 Networking</h3>
-                    <P>Connect with developers, recruiters, and startup founders.</P>
-                </div>
-
-                <div class="highlight-card">
-                    <h3>🎁 Exclusive Swag</h3>
-                    <p>Receive a conference badge, T-shirt, stickers, and digital resources.</p>
-                </div>
 
             </div>
 
-        </section>
+            <div class="highlight-card">
+                <h3>🛠 Hands-on Workshops</h3>
+                <p>Build practical skills through interactive coding sessions.</p>
+
+            </div>
+
+            <div class="highlight-card">
+                <h3>🤝 Networking</h3>
+                <P>Connect with developers, recruiters, and startup founders.</P>
+            </div>
+
+            <div class="highlight-card">
+                <h3>🎁 Exclusive Swag</h3>
+                <p>Receive a conference badge, T-shirt, stickers, and digital resources.</p>
+            </div>
+
+        </div>
+
+    </section>
 
 
 
 
-    </header>
+
 
 </body>
+<footer>
+    <div class="footer-top">
+        <div class="footer-logo">
+            <img src="./images/footer-logo.png" alt="DevCon Logo">
+
+        </div>
+        <div class="social-icons">
+            <img src="./images/icons/facebook.png" alt="Facebook">
+            <img src="./images/icons/instagram.png" alt="Instagram">
+            <img src="./images/icons/linkedin.png" alt="Linkdin">
+            <img src="./images/icons/youtube.png" alt="Youtube">
+
+        </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+        <p>© 2026 DevCon. All Rights Reserved.</p>
+    </div>
+</footer>
 
 </html>

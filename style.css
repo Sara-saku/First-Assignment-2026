@@ -207,6 +207,7 @@ ul {
     align-items: center;
     margin: auto;
     padding-top: 30px;
+    padding-bottom: 30px;
 
   
 }
@@ -235,4 +236,34 @@ ul {
     background-color: #ffffff;
     padding: 25px;
     line-height: 20px;
+}
+footer{
+     background-color: #0D1B2A;
+    max-width: 1600px;
+    align-items: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footer-logo{
+    margin-left: 25px;
+    padding: 2px;
+}
+.footer-bottom{
+    color: #d7d8da;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 25px;
 }
