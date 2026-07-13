@@ -1,4 +1,4 @@
-#Promts I have used for missing part.
+#Prompts I have used for missing part.
 1.
 As a beginner i have only learnt html and css basics.
 i was working on a simple web page based on DevCon 2026. where i have compleated
